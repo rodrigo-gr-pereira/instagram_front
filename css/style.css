@@ -129,6 +129,48 @@ header > .center{
     font-size: 22px;
 }
 
+.info-perfil p{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.descricao-perfil h3{
+    font-size: 18px;
+}
+
+.descricao-perfil p{
+    font-weight: 300;
+    font-size: 16px;
+    margin-top: 8px;
+}
+
+section.feed{
+    padding: 60px 0;
+}
+
+.line-feed{
+    border-top: 1px solid #ccc;
+    text-align:  center;
+}
+
+.line-marcacao{
+    display: none;
+    position: absolute;
+    width: 110px;
+    height: 1px;
+    background-color: black;
+    top: -10px;
+}
+.single-line-name{
+    text-transform: uppercase;
+    margin: 10px 10px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    display: inline-block;
+}
+
 @media screen and (max-width:580px){
     .search-box{
         display: none;
